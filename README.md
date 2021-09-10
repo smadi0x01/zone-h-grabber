@@ -7,7 +7,7 @@
 - git clone https://github.com/rootsmadi/zone-h-grabber
 
 ## ✅ Usage : 
-- python3 zone-h-grabber.py
+- python3 zone.py
  
 ## 📞 Contact :
 <p align="center">
