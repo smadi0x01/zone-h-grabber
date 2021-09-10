@@ -1,7 +1,13 @@
 #!/usr/bin/python
-import requests, sys, re, os, time, random
-from colorama import Fore, Back, Style
+# -*- coding: utf-8 -*-
 
+import requests
+import sys
+import re
+import os
+import time
+import random
+from colorama import Fore, Back, Style
 
 r = Fore.RED
 g = Fore.GREEN
@@ -18,23 +24,31 @@ def cls():
 
 
 def print_logo():
-    clear = "\x1b[0m"
-    colors = [36, 32, 34, 35, 31, 37]
+    clear = '\x1b[0m'
+    colors = [
+        36,
+        32,
+        34,
+        35,
+        31,
+        37,
+        ]
 
-    x = """
+    x = \
+        """
   _____                      _   _    ____           _     
- |__  /___ My Legion _ __   | | | |  / ___|_ __ __ _| |__  
+ |__  /___  smadi.0ut       | | | |  / ___|_ __ __ _| |__  
    / // _ \| '_ \ / _ \_____| |_| | | |  _| '__/ _` | '_ \ 
   / /| (_) | | | |  __/_____|  _  | | |_| | | | (_| | |_) |
  /____\___/|_| |_|\___|     |_| |_|  \____|_|  \__,_|_.__/ 
-       Mylegion - Bot Auto Exploiter 2021!!!                                    
+              t.me/rootsmadi                             
                                                              
                                                                                                                                                                                                                                                                                                         
-"""
-    for N, line in enumerate(x.split("\n")):
-        sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
+        """
+    for (N, line) in enumerate(x.split('\n')):
+        sys.stdout.write('\x1b[1;%dm%s%s\n' % (random.choice(colors),
+                         line, clear))
         time.sleep(0.05)
-
 
 
 cls()
@@ -47,22 +61,22 @@ try:
     __ZHE = raw_input('Enter __ZHE:')
 except IndexError:
     print Fore.YELLOW + '-----------------------------------------'
-    print Fore.RED + '[*]' + Fore.YELLOW + ' Python ' + Fore.GREEN + 'zone.py ' + Fore.WHITE + 'Name_of_defacer ' + y + 'ZH PHPSESSID ZHE'
-    print(Style.RESET_ALL)
+    print Fore.RED + '[*]' + Fore.YELLOW + ' Python ' + Fore.GREEN \
+        + 'zone.py ' + Fore.WHITE + 'Name_of_defacer ' + y \
+        + 'ZH PHPSESSID ZHE'
+    print Style.RESET_ALL
     sys.exit()
 
 page = 1
-print r + '    [' + w + '+' + r + '] ' + w + 'Notifier is : ' + r + __Defacer
+print r + '    [' + w + '+' + r + '] ' + w + 'Notifier is : ' + r \
+    + __Defacer
 while True:
-    url = 'http://zone-h.com/archive/notifier=' + __Defacer + '/page=' + str(page)
+    url = 'http://zone-h.com/archive/notifier=' + __Defacer + '/page=' \
+        + str(page)
     page = page + 1
     sess = requests.session()
 
-    my_cookie = {
-        'ZHE': __ZHE,
-        'ZH': __ZH,
-        'PHPSESSID': __PHPSESSID
-    }
+    my_cookie = {'ZHE': __ZHE, 'ZH': __ZH, 'PHPSESSID': __PHPSESSID}
 
     Open = sess.get(url, cookies=my_cookie, timeout=10)
     print Open.text
