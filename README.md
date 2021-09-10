@@ -2,12 +2,9 @@
   <a href="https://github.com/rootsmadi/zone-h-grabber"><img src="https://g.top4top.io/p_2079t2woi1.png"></a>
 </h1>
 
-## [!alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png) Install on Linux
+## Install on [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
 - git clone https://github.com/rootsmadi/zone-h-grabber
 
-## ✅ Usage : 
-- python3 zone.py
- 
 ## 📞 Contact :
 <p align="center">
 <a href="https://instagram.com/smadixd" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="smadi" height="25" width="25" /></a>
