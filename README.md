@@ -1,9 +1,8 @@
 <h1 align="center">
-  <br>
   <a href="https://github.com/rootsmadi/zone-h-grabber"><img src="https://g.top4top.io/p_2079t2woi1.png"></a>
   <br>
-  <br>
 </h1>
+
 ## Install on [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
 - git clone https://github.com/rootsmadi/zone-h-grabber
 
