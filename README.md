@@ -2,7 +2,7 @@
   <a href="https://github.com/rootsmadi/zone-h-grabber"><img src="https://g.top4top.io/p_2079t2woi1.png"></a>
 </h1>
 
-## [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)] Install on Linux
+## [!alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png) Install on Linux
 - git clone https://github.com/rootsmadi/zone-h-grabber
 
 ## ✅ Usage : 
