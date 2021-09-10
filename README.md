@@ -1,5 +1,5 @@
 <h1 align="center">
-  [ Zone-H Grabber ]
+  Zone-H Grabber
   <br>
 </h1>
 
